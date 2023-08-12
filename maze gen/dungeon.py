@@ -5,8 +5,8 @@ import string
 import time
 
 #this is setting
-maze_width = 50
-maze_height = 50
+maze_width = 20
+maze_height = 20
 size = 30
 invert = False
 
