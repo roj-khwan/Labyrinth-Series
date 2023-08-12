@@ -1,7 +1,7 @@
 from PIL import Image
 import math
 
-maze_path = "maze solve//Encrypt maze.png"
+maze_path = "Evaluate//Encrypt maze.png"
 size = 1
 
 colors_dict = {
@@ -41,7 +41,7 @@ def ReadData(data):
 
             raw_maze.putpixel((x, y), color)
 
-    raw_maze.save('maze solve//Solved maze.png')
+    raw_maze.save('Evaluate//Solved maze.png')
 
 def NearestColor(color):
 

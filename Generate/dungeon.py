@@ -51,7 +51,7 @@ def ReadData(data):
 
             raw_maze.putpixel((x, y), color)
 
-    raw_maze.save('maze gen//Image maze.png')
+    raw_maze.save('Generate//Image maze.png')
 
 def Encrypt(data):
     raw_maze = Image.new('RGBA', (len(data[0]), len(data)))
@@ -71,7 +71,7 @@ def Encrypt(data):
 
             raw_maze.putpixel((x, y), color)
 
-    raw_maze.save('maze gen//Encrypt maze.png')
+    raw_maze.save('Generate//Encrypt maze.png')
 
 def DivideRoom(data):
     rooms = [(0, 0, maze_width - 1, maze_height - 1)]
